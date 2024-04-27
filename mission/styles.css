@@ -1,0 +1,50 @@
+
+body {
+    font-family: "Times New Roman", Times, serif;
+    font-size: 20px;
+    line-height: 1.5;
+    font-weight: bold;
+  }
+  
+  h1, h2, h3 {
+    text-transform: uppercase;
+    letter-spacing: 4px;
+    text-align: center;
+    font-weight: 100;
+    
+  }
+  
+  h2 {
+    color: #006EB6;
+    text-decoration:underline;
+    font-weight: bold;
+    
+      
+      
+    
+  }
+  
+  .container {
+    max-width: 600px;
+    margin: 0 auto;
+    padding: 120%;
+    letter-spacing: 4px;
+  }
+  
+  p {
+    text-align: left;
+  }
+  
+  .logo {
+    width: 150px;
+    height: auto;
+    display: block;
+    margin: 0 auto;
+  }
+  img{
+    justify-self: center;
+    width: 80px;
+    padding-top: 5px;
+    align-self: center;
+    }
+    
