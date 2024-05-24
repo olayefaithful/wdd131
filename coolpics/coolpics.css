@@ -70,6 +70,7 @@ footer{
   }
   @media screen and (min-width: 700px) {
 
+
     .gallery {
       grid-template-columns: repeat(2, 1fr); 
     }
@@ -85,4 +86,34 @@ footer{
     nav button {
       display: none;
     }
+}
+.viewer {
+  position: fixed;
+  top: 0;
+  left: 0;
+  bottom: 0;
+  right: 0;
+  background: rgba(0, 0, 0, 0.75);
+  display: grid;
+  grid-template-rows: auto 1fr;
+  justify-items: center;
+  align-items: center;
+  color: white;
+}
+
+.viewer img {
+  max-height: 100%;
+}
+
+.close-viewer {
+  grid-row: 1 / 2;
+  font-size: 1.5em;
+  background: none;
+  border: none;
+  color: white;
+  cursor: pointer;
+}
+
+.hide {
+  display: none;
 }
