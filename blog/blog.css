@@ -81,6 +81,11 @@ article {
     grid-template-columns: 1fr 3fr;
     gap: 10px;
     grid-column: 1;
+    text-align: right;
+    line-height: 1.5;
+    border-right: 2px solid #AF1B3F;
+    padding-right: 15px;
+    margin-right: 15px;
 }
 
 .filters {
@@ -112,4 +117,21 @@ header nav {
     background-color: #EFC69B;
     color: white;
     text-decoration: none;
+}
+article img {
+    display: block;
+    margin: 0 auto;
+}
+article h2 {
+    margin-top: 0;
+}
+.details .date {
+    font-size: 1.2em;
+    font-weight: bold;
+}
+.articles {
+    grid-template-columns: 3fr 1fr;
+    gap: 20px;
+    max-width: 1200px;
+    margin: 0 auto;
 }
