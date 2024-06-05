@@ -33,3 +33,25 @@ const articles = [
         stars: "⭐⭐⭐⭐⭐"
     }
 ];
+
+let articles_element = document.querySelector('.articles');
+articles.forEach(function(article) {
+   let book = document.createElement("article")
+    let blog = ` <article>
+    <div class="details">
+    <span class="date">${article.date}</span>
+    <span class="genre">${article.genre}</span>
+</div>
+<div class="content">
+    <h2>${article.title}</h2>
+    <img src="${article.imgSrc}" alt="${article.imgAlt}">
+    <p>${article.description}</p>
+    <p>Age Range: ${article.ages}</p>
+    <p>Rating: ${article.stars}</p>
+</div>
+    
+</article>`
+book.innerHTML = blog;
+articles_element.appendChild(book);
+
+});
