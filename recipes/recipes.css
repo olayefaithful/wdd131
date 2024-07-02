@@ -215,7 +215,13 @@ footer a {
     width: 24px; 
     height: 24px;
 }
+#description{
+    display: none;
 
+}
+img{
+    width: 400px;
+}
 @media (min-width: 600px) {
     .recipes {
         flex-direction: row;
@@ -225,6 +231,9 @@ footer a {
 
     article {
         width: 45%;
+    }
+    #description{
+        display: block;
     }
 }
 
@@ -237,6 +246,7 @@ footer a {
     form {
         justify-content: flex-start;
     }
+   
 }
 
 .social a {
@@ -273,4 +283,70 @@ text-align: center;
 .social{
     width: 50px; 
     height: 24px;
+}
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: #f9f9f9;
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    background-color: var(--primary-color);
+    padding: 10px;
+    text-align: center;
+    color: var(--text-light);
+}
+
+header img {
+    max-width: 50px;
+    vertical-align: middle;
+}
+
+header h1 {
+    display: inline;
+    font-size: 2em;
+    vertical-align: middle;
+}
+
+main {
+    padding: 20px;
+}
+
+article {
+    background-color: var(--text-light);
+    border: 1px solid var(--primary-color);
+    border-radius: 5px;
+    padding: 20px;
+    margin-bottom: 20px;
+}
+
+.tags .tag {
+    display: inline-block;
+    background-color: var(--secondary-color);
+    color: var(--text-light);
+    padding: 5px;
+    margin-right: 5px;
+    border-radius: 3px;
+}
+
+.rating-container {
+    margin-top: 10px;
+}
+
+footer {
+    background-color: var(--primary-color);
+    color: var(--text-light);
+    text-align: center;
+    padding: 10px;
+}
+
+footer .social img {
+    width: 30px;
+    height: 30px;
+    margin: 0 5px;
+}
+
+footer p {
+    font-size: 0.6em;
 }

@@ -1,4 +1,4 @@
-const recipes = [
+export const recipes = [
 	{
 		author: 'Provo High Culinary Students',
 		url: '',
@@ -7,7 +7,7 @@ const recipes = [
 		datePublished: '2016-10-16',
 		tags: ['Waffles', 'Sweet Potato', 'Side'],
 		description: 'Savory waffles made with Sweet potato with a hint of Ginger',
-		image: './images/sweet-potato-waffle.jpg',
+		image: './images/sweet-potato-waffle-md.jpg',
 		recipeIngredient: [
 			'2 separated eggs',
 			'1/4 C Oil',
@@ -280,19 +280,6 @@ const recipes = [
 	}
 ]
 
-export default recipes
 
-export const recipes = [
-    {
-        title: "Recipe 1",
-        image: "images/recipe1.jpg",
-        rating: 4,
-        description: "Description of recipe 1."
-    },
-    {
-        title: "Recipe 2",
-        image: "images/recipe2.jpg",
-        rating: 5,
-        description: "Description of recipe 2."
-    }
-];
+
+
