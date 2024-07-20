@@ -1,10 +1,10 @@
-// Dark Mode Toggle
+
 const darkModeToggle = document.getElementById('darkModeToggle');
 darkModeToggle.addEventListener('click', () => {
   document.body.classList.toggle('dark-mode');
 });
 
-// Modal Pop-up
+
 const modal = document.getElementById('modalPopup');
 const modalBtn = document.getElementById('modalBtn');
 const closeBtn = document.getElementsByClassName('close')[0];
@@ -23,16 +23,16 @@ window.addEventListener('click', (event) => {
   }
 });
 
-// Form Validation
+
 const form = document.getElementById('myForm');
 form.addEventListener('submit', (event) => {
   event.preventDefault();
-  // Validate form inputs
+
   const name = document.getElementById('name').value;
   if (!name) {
     alert('Name is required');
   } else {
-    // Submit form
+
     alert('Form submitted successfully');
   }
 });
