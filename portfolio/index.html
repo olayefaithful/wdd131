@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Kioya Hub | Portfolio | Home</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div id="content">
+        <header>
+            <a id="logo_link" href="index.html">
+                <img class="logo" src="images/Kioya.png" alt="Kioya Hub Logo">
+            </a>
+            <nav>
+                <a href="index.html">Home</a>
+                <a href="content.html">Content</a>
+                <a href="siteplan.html">Site plan</a>
+                <a href="about.html">Contact Us</a>
+            </nav>
+        </header>
+        <section id="hero-msg">
+            <h1 class="home-title">Welcome to My Hub</h1>
+            <h4>Bring your Imagination Alive In Your Website</h4>
+            <div class="button-box">
+                <a class='book' href="contactus.html">Book Now</a>
+            </div>
+        </section>
+    </div>
+    <main class="home-grid">
+        <section class="rivers-card">
+            <img class="card-img" src="images/image-hands-fingers-typing-keyboard-text-close-up-128008566.webp" alt="">
+            <img class="icon" src="images/river_icon.png" alt="">
+            <h2>Olaye</h2>
+        </section>
+        <section class="camping-card">
+            <a href="content.html"><img class="card-img" src="images/whitewaterrafting.jpg" alt=""></a>
+            <h2>School Projects</h2>
+        </section>
+        <section class="rapids-card">
+            <img class="card-img" src="images/Screenshot 2024-07-19 162948.png" alt="">
+            <img class="icon" src="" alt="">
+            <h2>Kioya's Hub</h2>
+        </section>
+        <div id="background"></div>
+    </main>
+    <section class="msg">
+        <h2>I Am The Hub</h2>
+        <p>As an aspiring web designer and developer, my portfolio website serves as a dynamic showcase of my skills, creativity, and passion for crafting exceptional digital experiences. The primary purpose of this site is to provide potential clients, employers, and collaborators with a comprehensive view of my capabilities and achievements in web design and development. Through a visually appealing and user-friendly interface, I aim to highlight my proficiency in HTML, CSS, JavaScript, and various web development frameworks. Additionally, this portfolio will feature a collection of my projects, detailing the design process, technical challenges, and solutions I've implemented. By presenting my work in an organized and engaging manner, I hope to demonstrate my dedication to quality, innovation, and continuous learning in the ever-evolving field of web design and development.</p>
+        <a class="content" href="contactus.html">Join Us</a>
+    </section>
+    <footer>
+        <p>Kioya Hub &copy; 2024 - Faithful Olaye</p>
+        <p><a href="contactus.html">Contact Us</a></p>
+        <div class="social">
+            <a href="https://facebook.com" target="blank">
+                <img src="images/facebook.png" alt="fb icon">
+            </a>
+            <a href="https://twitter.com" target="_blank">
+                <img src="images/twitter.png" alt="twitter icon">
+            </a>
+            <a href="https://instagram.com" target="_blank">
+                <img src="images/instagram.png" alt="instagram icon">
+            </a>
+        </div>
+    </footer>
+    <div id="modalPopup" class="modal">
+        <div class="modal-content">
+            <span class="close">&times;</span>
+            <p>Submit Names and project interested.</p>
+        </div>
+    </div>
+    <button id="darkModeToggle">Dark Mode</button>
+    <form id="myForm">
+        <label for="name">Name:</label>
+        <input type="text" id="name" name="name">
+        <button type="submit">Submit</button>
+    </form>
+    <div id="filterOptions">
+        <label for="filter">Filter:</label>
+        <select id="filter">
+            <option value="all">All</option>
+            <option value="projects">Projects</option>
+            <option value="school">School Projects</option>
+        </select>
+    </div>
+    <div id="portfolioList">
+    </div>
+    <script src="main.js"></script>
+</body>
+</html>
